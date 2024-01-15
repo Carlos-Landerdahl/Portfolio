@@ -169,7 +169,7 @@ export default function Projetos() {
       <Carousel certificados={certificados} />
       <div className="flex gap-2 w-full items-center justify-center flex-col my-4 pt-6">
         <div>
-          <p className="text-[--subtext] text-sm font-bold flex items-center gap-2">
+          <p className="text-subtext text-sm font-bold flex items-center gap-2">
             Filtro de busca
             <SlidersHorizontal size={15} />
           </p>
@@ -201,20 +201,20 @@ export default function Projetos() {
           </Button>
         </div>
       </div>
-      <div className="flex text-[--title] justify-center gap-4 py-4 px-4 flex-wrap">
+      <div className="flex text-title justify-center gap-4 py-4 px-4 flex-wrap">
         {projetosFiltrados.map((projeto, index) => (
           <div key={index} className="flex items-start cursor-pointer">
-            <div className="flex flex-col w-[300px] h-[330px] justify-between border border-[--border-1] p-5 rounded gap-2 hover:scale-[102%] hover:border-white transition-all ease-linear">
+            <div className="flex flex-col w-[300px] h-[330px] justify-between border border-border1 p-5 rounded gap-2 hover:scale-[102%] hover:border-white transition-all ease-linear">
               <div className="flex flex-col gap-2">
                 <h1 className="text-2xl font-bold">{projeto.nome}</h1>
                 <Chip
                   color={getColorByCategoria(projeto.categoria)}
                   variant="dot"
-                  className="text-[--subtext] border-[--border-1]"
+                  className="text-subtext border-border1"
                 >
                   {projeto.categoria}
                 </Chip>
-                <p className="text-sm text-[--subtext]">{projeto.descricao}</p>
+                <p className="text-sm text-subtext">{projeto.descricao}</p>
               </div>
               <div className="flex gap-2">
                 <a
@@ -222,16 +222,15 @@ export default function Projetos() {
                   href={projeto.deployLink}
                   className="flex items-top hover:underline"
                 >
-                  Deploy{' '}
-                  <ArrowUpRight size={14} className="text-[--subtitle]" />
+                  Deploy <ArrowUpRight size={14} className="text-subtitle" />
                 </a>
                 <a
                   target="_blank"
                   href={projeto.githubLink}
                   className="flex items-top hover:underline"
                 >
-                  Github{' '}
-                  <ArrowUpRight size={14} className="text-[--subtitle]" />
+                  Github
+                  <ArrowUpRight size={14} className="text-subtitle" />
                 </a>
               </div>
             </div>

@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ptbr" className={inter.className}>
-      <body className="antialiased bg-[--bg-black]">
+      <body className="antialiased bg-bgBlack">
         <Providers>
           <Header />
           <main className="dark">{children}</main>

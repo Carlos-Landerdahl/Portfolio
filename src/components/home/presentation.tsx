@@ -22,13 +22,13 @@ export default function Presentation() {
             <h1 className="text-xl font-bold">
               Carlos Roberto Landerdahl Neto
             </h1>
-            <p className="text-[--subtitle] px-[2px] text-sm mb-3">
+            <p className="text-subtitle px-[2px] text-sm mb-3">
               Desenvolvedor de software. Especializado <br /> em NextJS e Java
             </p>
-            <p className="text-[--subtitle] flex items-center gap-2 text-sm">
+            <p className="text-subtitle flex items-center gap-2 text-sm">
               <MapPin size={15} /> Uberlândia - Minas Gerais, Brasil
             </p>
-            <p className="text-[--subtitle] flex items-center gap-2 text-sm">
+            <p className="text-subtitle flex items-center gap-2 text-sm">
               <GraduationCap size={15} /> Sistemas de informação
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function Presentation() {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/carloslanderdahl/"
-                className="flex gap-2 w-[117px] items-center text-[--subtitle] border border-transparent p-1 px-2 rounded bg-[--bg-button] hover:text-[--text-hover] hover:border-[--hover-buttom] transition-all"
+                className="flex gap-2 w-[117px] items-center text-subtitle border border-transparent p-1 px-2 rounded bg-bgButton hover:text-textHover hover:border-hoverButton transition-all"
               >
                 <FaLinkedin />
                 Linkedin
@@ -49,7 +49,7 @@ export default function Presentation() {
               <a
                 target="_blank"
                 href="https://github.com/Carlos-Landerdahl"
-                className="flex gap-2 w-[117px] items-center text-[--subtitle] border border-transparent p-1 px-2 rounded bg-[--bg-button] hover:text-[--text-hover] hover:border-[--hover-buttom] transition-all"
+                className="flex gap-2 w-[117px] items-center text-subtitle border border-transparent p-1 px-2 rounded bg-bgButton hover:text-textHover hover:border-hoverButton transition-all"
               >
                 <FaGithub />
                 Github
@@ -59,7 +59,7 @@ export default function Presentation() {
               <a
                 target="_blank"
                 href="mailto:carloslanderdahl27@gmail.com"
-                className="flex gap-2 w-[117px] items-center text-[--subtitle] border border-transparent p-1 px-2 rounded bg-[--bg-button] hover:text-[--text-hover] hover:border-[--hover-buttom] transition-all"
+                className="flex gap-2 w-[117px] items-center text-subtitle border border-transparent p-1 px-2 rounded bg-bgButton hover:text-textHover hover:border-hoverButton transition-all"
               >
                 <MdEmail />
                 Email
@@ -69,7 +69,7 @@ export default function Presentation() {
               <a
                 target="_blank"
                 href="https://u64d07a8d.artstation.com/"
-                className="flex gap-2 w-[117px] items-center text-[--subtitle] border border-transparent p-1 px-2 rounded bg-[--bg-button] hover:text-[--text-hover] hover:border-[--hover-buttom] transition-all"
+                className="flex gap-2 w-[117px] items-center text-subtitle border border-transparent p-1 px-2 rounded bg-bgButton hover:text-textHover hover:border-hoverButton transition-all"
               >
                 <FaArtstation />
                 Artstation
@@ -78,7 +78,7 @@ export default function Presentation() {
           </ul>
         </section>
       </div>
-      <div className="max-w-[calc(100vw-40px)] m-auto border-b border-gray-500 px-5 pt-8" />
+      <div className="max-w-[calc(100vw-40px)] m-auto border-b border-border2 px-5 pt-8" />
     </Fragment>
   )
 }

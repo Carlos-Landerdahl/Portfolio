@@ -73,10 +73,10 @@ export default function SendButtn() {
   }
 
   return (
-    <div className="dark text-[--title] flex flex-col gap-2">
+    <div className="dark text-title flex flex-col gap-2">
       <button
         onClick={onOpen}
-        className="px-4 py-2 rounded bg-[--bg-button] animate-pulse"
+        className="px-4 py-2 rounded bg-bgButton animate-pulse"
       >
         <SendHorizonal size={15} />
       </button>
@@ -84,16 +84,16 @@ export default function SendButtn() {
         isOpen={isOpen}
         placement="auto"
         onOpenChange={onOpenChange}
-        className="bg-[--bg-button]"
+        className="bg-bgButton"
       >
         <ModalContent>
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col">
-                <h2 className="flex text-2xl items-center gap-2 text-[--title]">
+                <h2 className="flex text-2xl items-center gap-2 text-title">
                   Entrar em contato <SendHorizonalIcon size={15} />
                 </h2>
-                <p className="text-sm text-[--subtitle]">
+                <p className="text-sm text-subtitle">
                   Envie uma mensagem diretamente para o meu e-mail
                 </p>
               </ModalHeader>
