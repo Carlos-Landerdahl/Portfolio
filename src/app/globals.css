@@ -1,21 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  :root {
-    --subtext: #b3b3b3;
-    --border-1: #464646;
-    --border-2: #222222;
-    --title: white;
-    --bg-black: black;
-    --subtitle: #adadad;
-    --bg-button: #1a1a1a;
-    --bg-stack: #161616;
-    --bg-card: #272727;
-    --hover-card: #424242;
-    --text-hover: #ebebeb;
-    --hover-buttom: #424242;
-    --header-link: #727272;
-  }
-}
