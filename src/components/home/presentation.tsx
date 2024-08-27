@@ -29,7 +29,7 @@ export default function Presentation() {
               <MapPin size={15} /> Uberlândia - Minas Gerais, Brasil
             </p>
             <p className="text-subtitle flex items-center gap-2 text-sm">
-              <GraduationCap size={15} /> Sistemas de informação
+              <GraduationCap size={15} /> UFU - Sistemas de informação
             </p>
           </div>
         </section>

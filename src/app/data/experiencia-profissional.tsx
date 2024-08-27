@@ -18,37 +18,19 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Trabalho na{' '}
-            <Link
-              isExternal
-              href="https://www.linkedin.com/company/loopfull/"
-              showAnchorIcon
-            >
-              Loopfull
+            Atuo na{' '}
+            <Link isExternal href="https://loopfull.com.br/" showAnchorIcon>
+              Loop Full
             </Link>
-            , onde presto serviços para a{' '}
-            <Link
-              isExternal
-              href="https://www.socialbank.com.br/"
-              showAnchorIcon
-            >
-              SocialBank
-            </Link>
-            ,{' '}
-            <Link
-              isExternal
-              href="https://melanciapingodoce.com.br/"
-              showAnchorIcon
-            >
-              Melancia Pingo Doce
-            </Link>{' '}
-            e outros projetos. Minhas responsabilidades incluem refatoração e
-            desenvolvimento web. Utilizo tecnologias como Next.js e TypeScript.
-            Além disso, criei um painel personalizado para a empresa, o qual
-            permitiu a conversão de dados da API em formato Excel, com vários
-            filtros para facilitar a extração de informações. Também desempenho
-            um papel fundamental na digitalização da empresa, desenvolvendo
-            soluções para automatizar processos e aumentar a eficiência.
+            , onde presto serviços para a empresa e seus parceiros. Minhas
+            responsabilidades englobam refatoração de código e desenvolvimento
+            web, utilizando tecnologias como Next.js e WordPress. Destaco a
+            criação de um painel personalizado criado para uma empresa parceira
+            que permite a conversão de dados da API para Excel, com múltiplos
+            filtros, facilitando a extração e análise de informações. Além
+            disso, tenho um papel central na digitalização da empresa,
+            desenvolvendo soluções para automatizar processos e aumentar a
+            eficiência operacional.
           </p>
         ),
       },
@@ -86,6 +68,14 @@ export const experienciasProfissionais = [
               className="border-[--border-1] text-bold cursor-pointer"
             >
               ReactJs
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={scrum}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Wordpress
             </Chip>
             <Chip
               radius="sm"
@@ -150,14 +140,11 @@ export const experienciasProfissionais = [
             <Link isExternal href="https://solana.com/pt" showAnchorIcon>
               Solana
             </Link>
-            . Utilizei tecnologias como Next.js, TypeScript e Spring Boot para
-            otimizar a presença online e melhorar a experiência do usuário.
-            Outro aspecto da minha jornada incluiu consultoria técnica em
-            desenvolvimento e manutenção de sistemas, onde pude oferecer suporte
-            especializado e implementar inovações tecnológicas para impulsionar
-            o progresso dos projetos. Além dessas experiências, ampliei meu
-            escopo de atuação realizando trabalhos freelancers por meio das
-            plataformas GetNinjas e Workana.
+            . Utilizei tecnologias como React e Next.js para otimizar a presença
+            online e melhorar a experiência do usuário. Outro aspecto da minha
+            jornada incluiu consultoria técnica em desenvolvimento e manutenção
+            de sistemas, onde pude oferecer suporte especializado e implementar
+            inovações tecnológicas para impulsionar o progresso dos projetos.
           </p>
         ),
       },
@@ -197,6 +184,14 @@ export const experienciasProfissionais = [
               className="border-[--border-1] text-bold cursor-pointer"
             >
               NextJs
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={scrum}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Wordpress
             </Chip>
             <Chip
               radius="sm"
@@ -245,7 +240,7 @@ export const experienciasProfissionais = [
         id: '1',
         label: 'Cargo',
         content:
-          'Responsável pela coleta de requisitos com os clientes e alinhamento de expectativas, desenvolvimentos das páginas web usando react.js e next.js, correções e resolução de bugs relatados pelos clientes, criação e melhorias dos scripts de destribuição, como airdrops e staking usando o node. Responsável também pela organização das hot tasks, demandas pequenas e rápidas que eu alinhava com cada desenvolvedor de acordo com a necessidade e pedido do cliente.',
+          'Responsável pela coleta de requisitos com os clientes e alinhamento de expectativas, desenvolvimentos das páginas web usando react.js e next.js, correções e resolução de bugs relatados pelos clientes, criação e melhorias dos scripts de destribuição, como airdrops e staking. Responsável também pela organização das hot tasks, demandas pequenas e rápidas que eu alinhava com cada desenvolvedor de acordo com a necessidade e pedido do cliente.',
       },
       {
         id: '2',
