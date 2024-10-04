@@ -9,6 +9,93 @@ const scrum = 'secondary'
 export const experienciasProfissionais = [
   {
     cargo: 'Desenvolvedor Web',
+    empresa: 'Sapiens Agro',
+    ativo: true,
+    periodo: 'Set de 2024 - Presente',
+    tabs: [
+      {
+        id: '1',
+        label: 'Cargo',
+        content: (
+          <p>
+            Responsável pela manutenção de sistemas web já existentes, garantindo sua eficiência e atualizações contínuas. Também atuo no desenvolvimento e integração de novos produtos, utilizando tecnologias como Bubble e Supabase, com foco na cotação de commodities e predição de tendências do mercado agrícola.
+          </p>
+        ),
+      },
+      {
+        id: '2',
+        label: 'Empresa',
+        content:
+          'A Sapiens Agro Enterprise oferece consultoria especializada para empresas em inteligência artificial, machine learning, Power BI e automações de dados, totalmente ajustada às necessidades específicas de cada cliente. Com um time de experts e metodologia ágil, garantimos entregas de alta qualidade e eficiência. Nossos projetos abrangem desde previsões de preços de commodities, incluindo as não listadas em bolsa, até logística no agro. Oferecemos visualizações avançadas em aplicações web/mobile e destaque para nossa análise de linguagem natural, processando milhares de notícias de forma automatizada através de inteligência artificial.',
+      },
+      {
+        id: '3',
+        label: 'Habilidades',
+        content: (
+          <div className="flex flex-wrap gap-2">
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={dba}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              PostgreSQL
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={frontend}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              Bubble
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={frontend}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              Supabase
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={scrum}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Make
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={backend}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Javascript
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={other}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Python
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={other}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Integrações API
+            </Chip>
+          </div>
+        ),
+      },
+    ],
+  },
+  {
+    cargo: 'Desenvolvedor Web',
     empresa: 'LoopFull',
     ativo: true,
     periodo: 'Mar de 2023 - Presente',
@@ -18,19 +105,7 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Atuo na{' '}
-            <Link isExternal href="https://loopfull.com.br/" showAnchorIcon>
-              Loop Full
-            </Link>
-            , onde presto serviços para a empresa e seus parceiros. Minhas
-            responsabilidades englobam refatoração de código e desenvolvimento
-            web, utilizando tecnologias como Next.js e WordPress. Destaco a
-            criação de um painel personalizado criado para uma empresa parceira
-            que permite a conversão de dados da API para Excel, com múltiplos
-            filtros, facilitando a extração e análise de informações. Além
-            disso, tenho um papel central na digitalização da empresa,
-            desenvolvendo soluções para automatizar processos e aumentar a
-            eficiência operacional.
+            Responsável por prestar serviços tanto para a empresa quanto para seus parceiros. Minhas atividades incluem a refatoração de código e desenvolvimento web, utilizando tecnologias como Next.js e WordPress. Além disso, realizo integrações entre o front-end e o back-end, desenvolvimento de páginas de conversão, criação de APIs para captura de dados e construção de sites institucionais. Também foco na otimização de desempenho de sites, visando melhorar a experiência do usuário e a eficiência das plataformas digitais.
           </p>
         ),
       },
@@ -115,7 +190,7 @@ export const experienciasProfissionais = [
     ],
   },
   {
-    cargo: 'Desenvolvedor Autônomo',
+    cargo: 'Landerdahl Tech',
     empresa: 'Pessoa júridica',
     ativo: true,
     periodo: 'Jan de 2022 - Presente',
@@ -125,26 +200,9 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Durante minha trajetória profissional, tive a oportunidade de
-            desempenhar papéis variados, adaptando-me às demandas específicas de
-            cada projeto. Além disso, participei ativamente na comunidade{' '}
-            <Link
-              isExternal
-              href="https://exame.com/future-of-money/o-que-e-web-3-0-tudo-o-que-voce-precisa-saber-sobre-a-nova-era-da-internet/"
-              showAnchorIcon
-            >
-              WEB 3
-            </Link>
-            , fornecendo desenvolvimento e suporte, resolvendo desafios no
-            ecossistema{' '}
-            <Link isExternal href="https://solana.com/pt" showAnchorIcon>
-              Solana
-            </Link>
-            . Utilizei tecnologias como React e Next.js para otimizar a presença
-            online e melhorar a experiência do usuário. Outro aspecto da minha
-            jornada incluiu consultoria técnica em desenvolvimento e manutenção
-            de sistemas, onde pude oferecer suporte especializado e implementar
-            inovações tecnológicas para impulsionar o progresso dos projetos.
+            Fundada em 2022, a <b>Landerdahl Tech</b> é especializada em oferecer soluções de desenvolvimento web de alta qualidade. Atuamos com tecnologias de ponta, como Next.js, React.js, Java com Spring Boot, Bubble e Supabase, garantindo eficiência e inovação em cada projeto.
+
+            Além do desenvolvimento, prestamos serviços completos de suporte ao cliente, utilizando a plataforma Intercom para garantir uma comunicação eficaz e personalizada com nossos clientes, utilizando IA e fluxogramas totalmente integrados com a sua plataforma.
           </p>
         ),
       },
@@ -159,15 +217,7 @@ export const experienciasProfissionais = [
               color={dba}
               className="border-[--border-1] text-bold cursor-pointer"
             >
-              Mysql
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={dba}
-              className="border-[--border-1] text-bold cursor-pointer"
-            >
-              MongoDB
+              Supabase
             </Chip>
             <Chip
               radius="sm"
@@ -176,6 +226,14 @@ export const experienciasProfissionais = [
               className="border-[--border-1] text-bold cursor-pointer"
             >
               PostgreSQL
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={dba}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              Bubble
             </Chip>
             <Chip
               radius="sm"
@@ -220,10 +278,10 @@ export const experienciasProfissionais = [
             <Chip
               radius="sm"
               variant="flat"
-              color={scrum}
+              color={backend}
               className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
             >
-              Notion
+              Spring Boot
             </Chip>
           </div>
         ),
@@ -240,7 +298,7 @@ export const experienciasProfissionais = [
         id: '1',
         label: 'Cargo',
         content:
-          'Responsável pela coleta de requisitos com os clientes e alinhamento de expectativas, desenvolvimentos das páginas web usando react.js e next.js, correções e resolução de bugs relatados pelos clientes, criação e melhorias dos scripts de destribuição, como airdrops e staking. Responsável também pela organização das hot tasks, demandas pequenas e rápidas que eu alinhava com cada desenvolvedor de acordo com a necessidade e pedido do cliente.',
+          'Responsável pela coleta de requisitos junto aos clientes, garantindo o alinhamento adequado das expectativas. Atuo no desenvolvimento de páginas web utilizando as tecnologias React.js e Next.js, bem como na correção e resolução de bugs reportados pelos clientes. Além disso, participo da criação e aprimoramento de scripts relacionados a distribuição de tokens, como airdrops e staking. Sou também responsável pela organização e distribuição das "hot tasks", pequenas demandas com prazos curtos, que são alocadas conforme a necessidade e solicitações dos clientes, em coordenação com os demais desenvolvedores da equipe.',
       },
       {
         id: '2',

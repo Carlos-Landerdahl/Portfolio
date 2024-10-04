@@ -1,4 +1,4 @@
-import { Chip, Link } from '@nextui-org/react'
+import { Link } from '@nextui-org/react'
 
 export default function AboutMe() {
   return (
@@ -10,9 +10,7 @@ export default function AboutMe() {
         back-end. Com experiências em projetos pessoais no desenvolvimento de
         APIs RESTful e conhecimento de uma ampla gama de tecnologias como
         Docker, MySQL, MongoDB, PostgreSQL e CI/CD, ofereço soluções web
-        robustas e funcionais. Atualmente, busco novos desafios como
-        desenvolvedor back-end ou fullstack para expandir minha atuação além do
-        front-end e agregar ainda mais valor aos projetos em que participo.
+        robustas e funcionais.
       </p>
       <Link
         className="pt-3 font-bold underline underline-offset-4"
