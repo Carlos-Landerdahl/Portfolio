@@ -18,7 +18,15 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Responsável pela manutenção de sistemas web já existentes, garantindo sua eficiência e atualizações contínuas. Também atuo no desenvolvimento e integração de novos produtos, utilizando tecnologias como Bubble e Supabase, com foco na cotação de commodities e predição de tendências do mercado agrícola.
+            Responsável por manter e melhorar sistemas web existentes,
+            garantindo que eles funcionem bem e estejam sempre atualizados.
+            Trabalho como desenvolvedor na app SPIA Logística Inteligente,
+            criando novas funcionalidades e cuidando do sistema para garantir
+            sua eficiência e confiabilidade. Também estou desenvolvendo o
+            AgroSap, uma plataforma digital feita do zero. Nesse projeto,
+            participo de todas as etapas, desde o planejamento até a
+            implementação, usando ferramentas e tecnologias como Bubble,
+            Supabase, JavaScript. Nosso foco é criar soluções para o setor agro.
           </p>
         ),
       },
@@ -89,6 +97,14 @@ export const experienciasProfissionais = [
             >
               Integrações API
             </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={other}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Integração com Asaas
+            </Chip>
           </div>
         ),
       },
@@ -105,7 +121,12 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Responsável por prestar serviços tanto para a empresa quanto para seus parceiros. Minhas atividades incluem a refatoração de código e desenvolvimento web, utilizando tecnologias como Next.js e WordPress. Além disso, realizo integrações entre o front-end e o back-end, desenvolvimento de páginas de conversão, criação de APIs para captura de dados e construção de sites institucionais. Também foco na otimização de desempenho de sites, visando melhorar a experiência do usuário e a eficiência das plataformas digitais.
+            Minhas atividades incluem o desenvolvimento web com tecnologias como
+            Next.js, WordPress e Bubble. Sou responsável por criar páginas de
+            conversão, desenvolver APIs para captura de dados, e construir sites
+            institucionais, e-commerces e plataformas SaaS. Além disso, foco na
+            otimização de desempenho e na melhoria da experiência do usuário,
+            buscando sempre entregar soluções rápidas e funcionais.
           </p>
         ),
       },
@@ -200,9 +221,15 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Fundada em 2022, a <b>Landerdahl Tech</b> é especializada em oferecer soluções de desenvolvimento web de alta qualidade. Atuamos com tecnologias de ponta, como Next.js, React.js, Java com Spring Boot, Bubble e Supabase, garantindo eficiência e inovação em cada projeto.
-
-            Além do desenvolvimento, prestamos serviços completos de suporte ao cliente, utilizando a plataforma Intercom para garantir uma comunicação eficaz e personalizada com nossos clientes, utilizando IA e fluxogramas totalmente integrados com a sua plataforma.
+            Fundada em 2022, a <b>Landerdahl Tech</b> é especializada em
+            oferecer soluções de desenvolvimento web de alta qualidade. Atuamos
+            com tecnologias de ponta, como Next.js, React.js, Java com Spring
+            Boot, Bubble e Supabase, garantindo eficiência e inovação em cada
+            projeto. Além do desenvolvimento, prestamos serviços completos de
+            suporte ao cliente, utilizando a plataforma Intercom para garantir
+            uma comunicação eficaz e personalizada com nossos clientes,
+            utilizando IA e fluxogramas totalmente integrados com a sua
+            plataforma.
           </p>
         ),
       },
