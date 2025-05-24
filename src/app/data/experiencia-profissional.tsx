@@ -108,6 +108,14 @@ export const experienciasProfissionais = [
             >
               Integrações API
             </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={other}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Integração com Asaas
+            </Chip>
           </div>
         ),
       },

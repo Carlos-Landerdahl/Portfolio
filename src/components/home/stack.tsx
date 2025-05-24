@@ -44,6 +44,16 @@ export default function Stack() {
             <Image src="/docker.svg" alt="" width={50} height={50} />
           </div>
         </Tooltip>
+        <Tooltip content="Supabase" className="bg-bgCard text-white">
+          <div className="bg-bgButton w-[120px] h-[70px] rounded flex flex-col justify-center items-center hover:bg-hoverCard transition-all ease-linear">
+            <Image src="/supabase.png" alt="" width={50} height={50} />
+          </div>
+        </Tooltip>
+        <Tooltip content="Bubble" className="bg-bgCard text-white">
+          <div className="bg-bgButton w-[120px] h-[70px] rounded flex flex-col justify-center items-center hover:bg-hoverCard transition-all ease-linear">
+            <Image src="/bubble.png" alt="" width={50} height={50} />
+          </div>
+        </Tooltip>
       </div>
     </div>
   )
