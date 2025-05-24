@@ -18,7 +18,26 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Responsável pela manutenção de sistemas web já existentes, garantindo sua eficiência e atualizações contínuas. Também atuo no desenvolvimento e integração de novos produtos, utilizando tecnologias como Bubble e Supabase, com foco na cotação de commodities e predição de tendências do mercado agrícola.
+            Atuo no desenvolvimento e manutenção de sistemas web na Sapiens
+            Agro, com responsabilidade sobre a criação do front-end e da
+            estrutura de dados, sempre em colaboração direta com o time de IA.
+            <br />
+            <br />
+            <b>SPIA – Logística Inteligente:</b> Desenvolvi a plataforma web do
+            SPIA, uma solução que utiliza inteligência artificial para prever
+            preços de frete e demandas logísticas com até 12 meses de
+            antecedência. Voltada à eficiência operacional e planejamento
+            estratégico, o SPIA automatiza cotações e entrega insights que
+            ajudam empresas a reduzir custos e tomar decisões assertivas.
+            <br />
+            <br />
+            <b>AgroSAP:</b> Sou responsável por todo o desenvolvimento da
+            plataforma AgroSap, desde a arquitetura do banco de dados até a
+            interface final. Hoje com mais de 100 usuários ativos, a ferramenta
+            centraliza a gestão de propriedades rurais, permitindo controle
+            detalhado de áreas, atividades, insumos e resultados. A plataforma
+            está em constante evolução, com lançamentos regulares de melhorias
+            baseadas em feedback real dos usuários e dados gerados por IA.
           </p>
         ),
       },
@@ -105,7 +124,11 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Responsável por prestar serviços tanto para a empresa quanto para seus parceiros. Minhas atividades incluem a refatoração de código e desenvolvimento web, utilizando tecnologias como Next.js e WordPress. Além disso, realizo integrações entre o front-end e o back-end, desenvolvimento de páginas de conversão, criação de APIs para captura de dados e construção de sites institucionais. Também foco na otimização de desempenho de sites, visando melhorar a experiência do usuário e a eficiência das plataformas digitais.
+            Minhas atividades incluem o desenvolvimento web com tecnologias como
+            Next.js, WordPress e Bubble. Sou responsável por criar páginas de
+            conversão, desenvolver APIs para captura de dados, e construir sites
+            institucionais, e-commerces e plataformas SaaS. Além disso, foco na
+            otimização de desempenho e na melhoria da experiência do usuário.
           </p>
         ),
       },
@@ -200,9 +223,15 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Fundada em 2022, a <b>Landerdahl Tech</b> é especializada em oferecer soluções de desenvolvimento web de alta qualidade. Atuamos com tecnologias de ponta, como Next.js, React.js, Java com Spring Boot, Bubble e Supabase, garantindo eficiência e inovação em cada projeto.
-
-            Além do desenvolvimento, prestamos serviços completos de suporte ao cliente, utilizando a plataforma Intercom para garantir uma comunicação eficaz e personalizada com nossos clientes, utilizando IA e fluxogramas totalmente integrados com a sua plataforma.
+            Fundada em 2022, a <b>Landerdahl Tech</b> é especializada em
+            oferecer soluções de desenvolvimento web de alta qualidade. Atuamos
+            com tecnologias de ponta, como Next.js, React.js, Java com Spring
+            Boot, Bubble e Supabase, garantindo eficiência e inovação em cada
+            projeto. Além do desenvolvimento, prestamos serviços completos de
+            suporte ao cliente, utilizando a plataforma Intercom para garantir
+            uma comunicação eficaz e personalizada com nossos clientes,
+            utilizando IA e fluxogramas totalmente integrados com a sua
+            plataforma.
           </p>
         ),
       },
