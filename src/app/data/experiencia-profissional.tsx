@@ -18,26 +18,26 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Atuo no desenvolvimento e manutenção de sistemas web na Sapiens
-            Agro, com responsabilidade sobre a criação do front-end e da
-            estrutura de dados, sempre em colaboração direta com o time de IA.
+            Atuo no desenvolvimento e sustentação de sistemas web na Sapiens
+            Agro, com responsabilidade sobre a criação do front-end, estrutura
+            de dados e segurança, sempre em colaboração direta com o time de
+            engenharia de dados.
             <br />
             <br />
-            <b>SPIA – Logística Inteligente:</b> Desenvolvi a plataforma web do
-            SPIA, uma solução que utiliza inteligência artificial para prever
-            preços de frete e demandas logísticas com até 12 meses de
-            antecedência. Voltada à eficiência operacional e planejamento
-            estratégico, o SPIA automatiza cotações e entrega insights que
-            ajudam empresas a reduzir custos e tomar decisões assertivas.
+            <b>Sapiens Fretes:</b> Uma solução que utiliza modelos matemáticos
+            para prever/compor preços de frete e demandas logísticas com até 24
+            meses. Voltada à eficiência operacional e planejamento estratégico,
+            a aplicação automatiza cotações e entrega insights que ajudam
+            empresas a reduzir custos e tomar decisões assertivas.
             <br />
             <br />
-            <b>AgroSAP:</b> Sou responsável por todo o desenvolvimento da
-            plataforma AgroSap, desde a arquitetura do banco de dados até a
+            <b>Agrosap:</b> Responsável por todo o desenvolvimento e sustentação
+            da plataforma AgroSap, desde a arquitetura do banco de dados até a
             interface final. Hoje com mais de 100 usuários ativos, a ferramenta
-            centraliza a gestão de propriedades rurais, permitindo controle
-            detalhado de áreas, atividades, insumos e resultados. A plataforma
-            está em constante evolução, com lançamentos regulares de melhorias
-            baseadas em feedback real dos usuários e dados gerados por IA.
+            centraliza informações estratégicas baseadas em modelos
+            matematáticos da Sapiens. A plataforma está em constante evolução,
+            com lançamentos regulares de melhorias baseadas em feedback real dos
+            usuários.
           </p>
         ),
       },
@@ -122,105 +122,6 @@ export const experienciasProfissionais = [
     ],
   },
   {
-    cargo: 'Desenvolvedor Web',
-    empresa: 'LoopFull',
-    ativo: true,
-    periodo: 'Mar de 2023 - Presente',
-    tabs: [
-      {
-        id: '1',
-        label: 'Cargo',
-        content: (
-          <p>
-            Minhas atividades incluem o desenvolvimento web com tecnologias como
-            Next.js, WordPress e Bubble. Sou responsável por criar páginas de
-            conversão, desenvolver APIs para captura de dados, e construir sites
-            institucionais, e-commerces e plataformas SaaS. Além disso, foco na
-            otimização de desempenho e na melhoria da experiência do usuário.
-          </p>
-        ),
-      },
-      {
-        id: '2',
-        label: 'Empresa',
-        content:
-          'Com 18 anos de experiência, esta agência de marketing adota uma abordagem holística para fortalecer marcas e impactar comunidades. Oferece soluções ponta a ponta, valoriza a diversidade e está comprometida com a inovação e o aprendizado contínuo. O objetivo é não apenas gerar resultados, mas também contribuir para um mundo melhor.',
-      },
-      {
-        id: '3',
-        label: 'Habilidades',
-        content: (
-          <div className="flex flex-wrap gap-2">
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={dba}
-              className="border-[--border-1] text-bold cursor-pointer"
-            >
-              Mysql
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={frontend}
-              className="border-[--border-1] text-bold cursor-pointer"
-            >
-              NextJs
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={frontend}
-              className="border-[--border-1] text-bold cursor-pointer"
-            >
-              ReactJs
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={scrum}
-              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
-            >
-              Wordpress
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={backend}
-              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
-            >
-              NodeJs
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={other}
-              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
-            >
-              Meta Ads
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={other}
-              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
-            >
-              Google Ads
-            </Chip>
-            <Chip
-              radius="sm"
-              variant="flat"
-              color={scrum}
-              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
-            >
-              Trello
-            </Chip>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
     cargo: 'Landerdahl Tech',
     empresa: 'Pessoa júridica',
     ativo: true,
@@ -231,15 +132,14 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Fundada em 2022, a <b>Landerdahl Tech</b> é especializada em
-            oferecer soluções de desenvolvimento web de alta qualidade. Atuamos
-            com tecnologias de ponta, como Next.js, React.js, Java com Spring
-            Boot, Bubble e Supabase, garantindo eficiência e inovação em cada
-            projeto. Além do desenvolvimento, prestamos serviços completos de
-            suporte ao cliente, utilizando a plataforma Intercom para garantir
-            uma comunicação eficaz e personalizada com nossos clientes,
-            utilizando IA e fluxogramas totalmente integrados com a sua
-            plataforma.
+            Desde 2022, a <b>Landerdahl Tech</b> se consolidou em soluções de
+            desenvolvimento web sob medida. Entendemos que cada negócio possui
+            desafios únicos e, por isso, nossa abordagem vai muito além do
+            código: atuamos como parceiros estratégicos da sua marca. Utilizando
+            as tecnologias mais modernas do mercado, garantimos projetos que
+            combinam estética, usabilidade e performance. Seja na criação de
+            plataformas complexas ou sites institucionais, nosso compromisso é
+            entregar eficiência e inovação.
           </p>
         ),
       },
@@ -319,6 +219,106 @@ export const experienciasProfissionais = [
               className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
             >
               Spring Boot
+            </Chip>
+          </div>
+        ),
+      },
+    ],
+  },
+  {
+    cargo: 'Desenvolvedor Web',
+    empresa: 'LoopFull',
+    ativo: true,
+    periodo: 'Mar de 2023 - Presente',
+    tabs: [
+      {
+        id: '1',
+        label: 'Cargo',
+        content: (
+          <p>
+            Responsável pela coleta dos requisitos do produto e pelo
+            desenvolvimento web com React.js e Next.js, bem como na manutenção e
+            sustentação dos sistemas já existentes. Também responsável pela
+            organização e distribuição das tasks, que são alocadas conforme a
+            necessidade e solicitações dos clientes, em coordenação com os
+            demais membros da equipe.
+          </p>
+        ),
+      },
+      {
+        id: '2',
+        label: 'Empresa',
+        content:
+          'Com 18 anos de experiência, esta agência de marketing adota uma abordagem holística para fortalecer marcas e impactar comunidades. Oferece soluções ponta a ponta, valoriza a diversidade e está comprometida com a inovação e o aprendizado contínuo. O objetivo é não apenas gerar resultados, mas também contribuir para um mundo melhor.',
+      },
+      {
+        id: '3',
+        label: 'Habilidades',
+        content: (
+          <div className="flex flex-wrap gap-2">
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={dba}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              Mysql
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={frontend}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              NextJs
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={frontend}
+              className="border-[--border-1] text-bold cursor-pointer"
+            >
+              ReactJs
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={scrum}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Wordpress
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={backend}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              NodeJs
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={other}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Meta Ads
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={other}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Google Ads
+            </Chip>
+            <Chip
+              radius="sm"
+              variant="flat"
+              color={scrum}
+              className="text-[--subtext] border-[--border-1] text-bold cursor-pointer"
+            >
+              Trello
             </Chip>
           </div>
         ),
