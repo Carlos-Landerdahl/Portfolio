@@ -229,19 +229,16 @@ export const experienciasProfissionais = [
     cargo: 'Desenvolvedor Web',
     empresa: 'LoopFull',
     ativo: true,
-    periodo: 'Mar de 2023 - Presente',
+    periodo: 'Mar de 2023 - Fev de 2025',
     tabs: [
       {
         id: '1',
         label: 'Cargo',
         content: (
           <p>
-            Responsável pela coleta dos requisitos do produto e pelo
-            desenvolvimento web com React.js e Next.js, bem como na manutenção e
-            sustentação dos sistemas já existentes. Também responsável pela
-            organização e distribuição das tasks, que são alocadas conforme a
-            necessidade e solicitações dos clientes, em coordenação com os
-            demais membros da equipe.
+            Desenvolvimento web com Next.js, WordPress e Bubble. Responsável por
+            criar páginas de conversão, desenvolver APIs, construir sites
+            institucionais, e-commerces e plataformas SaaS.
           </p>
         ),
       },
@@ -335,7 +332,7 @@ export const experienciasProfissionais = [
         id: '1',
         label: 'Cargo',
         content:
-          'Responsável pela coleta de requisitos junto aos clientes, garantindo o alinhamento adequado das expectativas. Atuo no desenvolvimento de páginas web utilizando as tecnologias React.js e Next.js, bem como na correção e resolução de bugs reportados pelos clientes. Além disso, participo da criação e aprimoramento de scripts relacionados a distribuição de tokens, como airdrops e staking. Sou também responsável pela organização e distribuição das "hot tasks", pequenas demandas com prazos curtos, que são alocadas conforme a necessidade e solicitações dos clientes, em coordenação com os demais desenvolvedores da equipe.',
+          'Responsável pela coleta dos requisitos do produto e pelo desenvolvimento web com React.js e Next.js, bem como na manutenção e sustentação dos sistemas já existentes. Também responsável pela organização e distribuição das tasks, que são alocadas conforme a necessidade e solicitações dos clientes, em coordenação com os demais membros da equipe.',
       },
       {
         id: '2',
