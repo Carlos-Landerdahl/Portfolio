@@ -18,17 +18,29 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Atuo no desenvolvimento e sustentação de sistemas web na Sapiens Agro, com responsabilidade sobre a criação das aplicações web, estrutura de dados e segurança, sempre em colaboração direta com o time de engenharia de dados.
+            Atuo no desenvolvimento e sustentação de sistemas web na Sapiens
+            Agro, com responsabilidade sobre a criação das aplicações web,
+            estrutura de dados e segurança, sempre em colaboração direta com o
+            time de engenharia de dados.
             <br />
             <br />
             <b>Sapiens Fretes</b>
             <br />
-            Uma solução que utiliza modelos matemáticos para prever/compor preços de frete e demandas logísticas com até 24 meses. Voltada à eficiência operacional e planejamento estratégico, a aplicação entrega insights que ajudam empresas a reduzir custos e tomar decisões assertivas.
+            Uma solução que utiliza modelos matemáticos para prever/compor
+            preços de frete e demandas logísticas com até 24 meses. Voltada à
+            eficiência operacional e planejamento estratégico, a aplicação
+            entrega insights que ajudam empresas a reduzir custos e tomar
+            decisões assertivas.
             <br />
             <br />
             <b>Agrosap</b>
             <br />
-            Responsável por todo o desenvolvimento e sustentação da plataforma AgroSap, desde a arquitetura até a interface final. Hoje com mais de 100 usuários ativos, a ferramenta centraliza informações estratégicas baseadas em modelos matematáticos da Sapiens. A plataforma está em constante evolução, com lançamentos regulares de melhorias baseadas em feedback real dos usuários.
+            Responsável por todo o desenvolvimento e sustentação da plataforma
+            AgroSap, desde a arquitetura até a interface final. Hoje com mais de
+            100 usuários ativos, a ferramenta centraliza informações
+            estratégicas baseadas em modelos matematáticos da Sapiens. A
+            plataforma está em constante evolução, com lançamentos regulares de
+            melhorias baseadas em feedback real dos usuários.
           </p>
         ),
       },
@@ -227,7 +239,10 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Arquitetura e desenvolvimento de plataformas SaaS de ponta a ponta, com foco em sustentabilidade sistêmica e inovação para parceiros B2B. Experiência em liderar a evolução técnica de produtos digitais, garantindo escalabilidade.
+            Arquitetura e desenvolvimento de plataformas SaaS de ponta a ponta,
+            com foco em sustentabilidade sistêmica e inovação para parceiros
+            B2B. Experiência em liderar a evolução técnica de produtos digitais,
+            garantindo escalabilidade.
           </p>
         ),
       },
