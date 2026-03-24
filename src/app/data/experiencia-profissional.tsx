@@ -18,26 +18,17 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Atuo no desenvolvimento e sustentação de sistemas web na Sapiens
-            Agro, com responsabilidade sobre a criação do front-end, estrutura
-            de dados e segurança, sempre em colaboração direta com o time de
-            engenharia de dados.
+            Atuo no desenvolvimento e sustentação de sistemas web na Sapiens Agro, com responsabilidade sobre a criação das aplicações web, estrutura de dados e segurança, sempre em colaboração direta com o time de engenharia de dados.
             <br />
             <br />
-            <b>Sapiens Fretes:</b> Uma solução que utiliza modelos matemáticos
-            para prever/compor preços de frete e demandas logísticas com até 24
-            meses. Voltada à eficiência operacional e planejamento estratégico,
-            a aplicação automatiza cotações e entrega insights que ajudam
-            empresas a reduzir custos e tomar decisões assertivas.
+            <b>Sapiens Fretes</b>
+            <br />
+            Uma solução que utiliza modelos matemáticos para prever/compor preços de frete e demandas logísticas com até 24 meses. Voltada à eficiência operacional e planejamento estratégico, a aplicação entrega insights que ajudam empresas a reduzir custos e tomar decisões assertivas.
             <br />
             <br />
-            <b>Agrosap:</b> Responsável por todo o desenvolvimento e sustentação
-            da plataforma AgroSap, desde a arquitetura do banco de dados até a
-            interface final. Hoje com mais de 100 usuários ativos, a ferramenta
-            centraliza informações estratégicas baseadas em modelos
-            matematáticos da Sapiens. A plataforma está em constante evolução,
-            com lançamentos regulares de melhorias baseadas em feedback real dos
-            usuários.
+            <b>Agrosap</b>
+            <br />
+            Responsável por todo o desenvolvimento e sustentação da plataforma AgroSap, desde a arquitetura até a interface final. Hoje com mais de 100 usuários ativos, a ferramenta centraliza informações estratégicas baseadas em modelos matematáticos da Sapiens. A plataforma está em constante evolução, com lançamentos regulares de melhorias baseadas em feedback real dos usuários.
           </p>
         ),
       },
@@ -236,9 +227,7 @@ export const experienciasProfissionais = [
         label: 'Cargo',
         content: (
           <p>
-            Desenvolvimento web com Next.js, WordPress e Bubble. Responsável por
-            criar páginas de conversão, desenvolver APIs, construir sites
-            institucionais, e-commerces e plataformas SaaS.
+            Arquitetura e desenvolvimento de plataformas SaaS de ponta a ponta, com foco em sustentabilidade sistêmica e inovação para parceiros B2B. Experiência em liderar a evolução técnica de produtos digitais, garantindo escalabilidade.
           </p>
         ),
       },
@@ -332,7 +321,7 @@ export const experienciasProfissionais = [
         id: '1',
         label: 'Cargo',
         content:
-          'Responsável pela coleta dos requisitos do produto e pelo desenvolvimento web com React.js e Next.js, bem como na manutenção e sustentação dos sistemas já existentes. Também responsável pela organização e distribuição das tasks, que são alocadas conforme a necessidade e solicitações dos clientes, em coordenação com os demais membros da equipe.',
+          'Atuação híbrida entre desenvolvimento e produto, sendo o ponto focal na coleta e refinamento de requisitos técnicos e o alinhamento com as expectativas dos clientes. Desenvolvendo com React.js e Next.js, além de gerenciar o fluxo de tasks, coordenando a distribuição de demandas críticas entre a equipe para garantir a sustentação contínua do ecossistema.',
       },
       {
         id: '2',

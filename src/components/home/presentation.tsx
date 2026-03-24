@@ -23,7 +23,7 @@ export default function Presentation() {
               Carlos Roberto Landerdahl Neto
             </h1>
             <p className="text-subtitle px-[2px] text-sm mb-3">
-              Desenvolvedor de software. Especializado <br /> em NextJS e Java
+              Desenvolvedor de software
             </p>
             <p className="text-subtitle flex items-center gap-2 text-sm">
               <MapPin size={15} /> Uberlândia - Minas Gerais, Brasil

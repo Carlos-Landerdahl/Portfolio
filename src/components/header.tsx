@@ -1,28 +1,39 @@
+'use client'
+
 import { ArrowUpRight, ChevronRightSquare } from 'lucide-react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import SendButton from './sendEmail'
 
 export default function Header() {
+  const pathname = usePathname()
+
+  const getLinkClass = (path: string) => {
+    return pathname === path
+      ? 'text-textHover transition ease-in-out'
+      : 'text-headerLink hover:text-textHover transition ease-in-out'
+  }
+
   return (
-    <nav className="px-2 border-b border-border2 sm:px-3 fixed z-[100] bg-bgBlack w-full">
-      <div className="h-[60px] max-w-7xl justify-center gap-2 m-auto flex px-1 items-center bg-transparent text-textHover">
-        <section className="flex pr-2  items-center sm:justify-normal sm:w-full">
-          <Link href="/" className="hover:animate-spin ease-in-out">
+    <nav className="fixed z-[100] w-full border-b border-border2 bg-bgBlack px-2 sm:px-3">
+      <div className="m-auto flex h-[60px] max-w-7xl items-center justify-center gap-2 bg-transparent px-1 text-textHover">
+        <section className="flex items-center pr-2 sm:w-full sm:justify-normal">
+          <Link href="/" className="ease-in-out hover:animate-spin">
             <ChevronRightSquare size={25} />
           </Link>
         </section>
-        <section className="flex justify-center gap-3 items-center sm:justify-end">
+        <section className="flex items-center justify-center gap-3 sm:justify-end">
           <ul className="flex gap-6 text-sm font-bold">
-            <li className="text-headerLink hover:text-textHover transition ease-in-out ">
+            <li className={getLinkClass('/')}>
               <Link href="/">Sobre</Link>
             </li>
-            <li className="text-headerLink hover:text-textHover transition ease-in-out">
-              <Link href="/projetos" className="flex gap-1">
+            <li className={getLinkClass('/projetos')}>
+              <Link href="/projetos" className="flex gap-1 items-center">
                 Projetos <ArrowUpRight size={10} />
               </Link>
             </li>
-            <li className="text-headerLink hover:text-textHover transition ease-in-out">
-              <Link href="/carreira" className="flex gap-1">
+            <li className={getLinkClass('/carreira')}>
+              <Link href="/carreira" className="flex gap-1 items-center">
                 Carreira <ArrowUpRight size={10} />
               </Link>
             </li>
